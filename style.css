@@ -1,0 +1,59 @@
+body {
+   font-family: 'Times New Roman', Times, serif;
+   background-color:pink;
+}
+h1{
+   font-weight: 100;
+   font-family: 'Times New Roman', Times, serif;
+}
+h2{
+   font-size: 12pt;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 200;
+}
+.navbar{
+   text-align: center;
+}
+img{
+   border-radius: 25%;
+}
+.github_linkedin{
+   text-align: center;
+}
+.grid-container{
+   display: grid;
+   gap:50px;
+}
+.project1{
+   grid-column-start: 1;
+   border: 1px solid black;
+   ;
+}
+.project2{
+   grid-column-start: 2;
+   border: 1px solid black;
+}
+.project3{
+   grid-column-start: 3;
+   border: 1px solid black;
+}
+footer{
+   display: block;
+   text-align: center;
+}
+.home{
+   text-align: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.column {
+   float: left;
+   width:50%;
+}
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+.skills{
+   text-align:left;
+}
